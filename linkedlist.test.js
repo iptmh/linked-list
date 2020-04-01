@@ -9,6 +9,16 @@ describe('passes all lab tests', () => {
     }).not.toThrow();
   });
 
+  it('has a head property that ponts to the beginning', () => {
+    let newList = new LinkedList();
+
+    newList.insert('A');
+    newList.insert('B');
+
+    expect(myList.head).toBeDefined();
+    expect(myList.head.val).toBe('B');
+  });
+
   it('can insert a value into the list with insert()', () => {
     let newList = new LinkedList();
     newList.insert('A');
