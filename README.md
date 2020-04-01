@@ -28,3 +28,4 @@ toString(): takes in no arguments and returns a string representing all the valu
     
 ## Testing
 <!-- Description of how to run your tests -->
+run npm test linkedlist.test.js in the terminal

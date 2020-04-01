@@ -27,7 +27,7 @@ describe('passes all lab tests', () => {
     expect(str).toBe('A -> null');
   });
 
-  it('can search for values in a linked list with includes()', () => {
+  it('return true for values in a linked list with includes(), otherwise return false if value not found', () => {
     let linkedList = new LinkedList();
     linkedList.insert(5);
     linkedList.insert(10);
@@ -42,7 +42,7 @@ describe('passes all lab tests', () => {
     expect(linkedList.includes(200)).toEqual(false);
   });
 
-  it('can create a string representing all values in the linked list with toString()', () => {
+  it('can insert multiple nodes and print out the linked list in an expected way with toString()', () => {
     let linkedList = new LinkedList();
 
     expect(linkedList.toString()).toEqual('null');
