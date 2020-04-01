@@ -15,8 +15,8 @@ describe('passes all lab tests', () => {
     newList.insert('A');
     newList.insert('B');
 
-    expect(myList.head).toBeDefined();
-    expect(myList.head.val).toBe('B');
+    expect(newList.head).toBeDefined();
+    expect(newList.head.val).toBe('B');
   });
 
   it('can insert a value into the list with insert()', () => {
