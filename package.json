@@ -12,7 +12,7 @@
     "license": "ISC",
     "dependencies": {
         "@code-fellows/supergoose": "^1.0.2",
-        "minimist": "^1.2.5",
+        "minimist": "^1.2.6",
         "mongoose": "^5.9.6"
     }
 }
